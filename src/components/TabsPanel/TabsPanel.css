@@ -1,0 +1,19 @@
+.tab-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 0;
+  margin: 0 0 20px 0;
+  max-width: 500px;
+}
+
+.tabs {
+  display: inline-block;
+  top: 0;
+  margin: 0 10px;
+}
+
+.tab-content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
